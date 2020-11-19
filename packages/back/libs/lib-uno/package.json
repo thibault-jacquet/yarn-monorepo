@@ -1,6 +1,6 @@
 {
   "name": "@company/lib-uno",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "main": "dist/index.js",
   "license": "MIT",
   "files": [
@@ -12,6 +12,5 @@
   },
   "peerDependencies": {
     "typescript": ">=4"
-  },
-  "gitHead": "91f2d11d3e12dee19a56424f25249836ad610e52"
+  }
 }

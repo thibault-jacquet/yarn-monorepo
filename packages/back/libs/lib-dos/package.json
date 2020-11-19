@@ -1,6 +1,6 @@
 {
   "name": "@company/lib-dos",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "main": "dist/index.js",
   "license": "MIT",
   "files": [
@@ -14,6 +14,5 @@
   "peerDependencies": {
     "typescript": ">=4",
     "webpack": ">=5"
-  },
-  "gitHead": "91f2d11d3e12dee19a56424f25249836ad610e52"
+  }
 }

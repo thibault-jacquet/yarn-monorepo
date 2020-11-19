@@ -15,7 +15,7 @@ jobs:
       - name: Configure CI Git User
         run: |
           git remote rm origin
-          git remote add origin "https://$USER_NAME:$GH_TOKEN@github.com:thibault-jacquet/yarn-monorepo.git"
+          git remote add origin "https://$USER_NAME:$GH_TOKEN@github.com/thibault-jacquet/yarn-monorepo.git"
           git fetch
           git config --global user.email octobot@github.com
           git config --global user.name GitHub Actions

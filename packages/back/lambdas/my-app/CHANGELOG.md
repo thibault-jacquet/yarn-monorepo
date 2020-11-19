@@ -1,0 +1,11 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.1.0](https://github.com/thibault-jacquet/yarn-monorepo/compare/my-app@1.0.1...my-app@1.1.0) (2020-11-19)
+
+
+### Features
+
+* **my-app:** test ([7dfbad8](https://github.com/thibault-jacquet/yarn-monorepo/commit/7dfbad800a4e4cc1253a64ffbd43a99215e253c2))

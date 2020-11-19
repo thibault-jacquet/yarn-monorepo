@@ -17,5 +17,6 @@
   "peerDependencies": {
     "typescript": ">=4",
     "webpack": ">=5"
-  }
+  },
+  "gitHead": "8a0856f233bb2b668b8e19b8caf7c964b94b8e10"
 }

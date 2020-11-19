@@ -1,0 +1,21 @@
+{
+  "name": "yarn-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "build:all": "lerna run build"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "lerna": "^3.22.1",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.0.5",
+    "webpack": "^5.5.1",
+    "webpack-cli": "^4.2.0"
+  }
+}

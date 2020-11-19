@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  verdaccio:
+    image: verdaccio/verdaccio:latest
+    ports:
+      - '4873:4873'
+    volumes:
+      - './config-verdaccio.yml:/verdaccio/conf/config.yml'

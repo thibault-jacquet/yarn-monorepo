@@ -1,0 +1,16 @@
+{
+    "version": "independent",
+    "packages": [
+      "packages/**"
+    ],
+    "npmClient": "yarn",
+    "useWorkspaces": true,
+    "command": {
+      "publish": {
+        "registry": "http://localhost:4873",
+        "conventionalCommits": false,
+        "message": "chore: publish",
+        "allowBranch": "main"
+      }
+    }
+  }

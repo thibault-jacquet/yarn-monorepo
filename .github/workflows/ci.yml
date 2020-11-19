@@ -29,6 +29,9 @@ jobs:
           node-version: '12.x'
           registry-url: ${{secrets.REGISTRY_URL}}
           always-auth: true
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
 
       - name: Cache Node.js modules
         uses: actions/cache@v2

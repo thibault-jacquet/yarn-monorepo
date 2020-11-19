@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.7](https://github.com/thibault-jacquet/yarn-monorepo/compare/@company/lib-uno@1.1.6...@company/lib-uno@1.1.7) (2020-11-19)
+
+**Note:** Version bump only for package @company/lib-uno
+
+
+
+
+
 ## [1.1.6](https://github.com/thibault-jacquet/yarn-monorepo/compare/@company/lib-uno@1.1.5...@company/lib-uno@1.1.6) (2020-11-19)
 
 **Note:** Version bump only for package @company/lib-uno

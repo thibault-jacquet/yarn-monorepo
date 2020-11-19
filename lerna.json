@@ -7,7 +7,7 @@
     "useWorkspaces": true,
     "command": {
       "publish": {
-        "registry": "http://localhost:4444",
+        "registry": "https://company-test-254445508262.d.codeartifact.eu-central-1.amazonaws.com/npm/company/",
         "conventionalCommits": true,
         "message": "chore: publish",
         "allowBranch": "main"

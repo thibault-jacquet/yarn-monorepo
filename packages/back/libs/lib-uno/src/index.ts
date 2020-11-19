@@ -1,3 +1,3 @@
 export const upperCase = (str: string) => str.toUpperCase()
 
-export const newFeature = () => 5
+export const newFeature = () => 6

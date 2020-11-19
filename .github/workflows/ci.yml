@@ -11,12 +11,25 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: Configure CI Git User
+        run: |
+          git remote rm origin
+          git remote add origin "https://$USER_NAME:$GH_TOKEN@github.com:thibault-jacquet/yarn-monorepo.git"
+          git fetch
+          git config --global user.email octobot@github.com
+          git config --global user.name GitHub Actions
+        env:
+          USER_NAME: ${{ secrets.USER_NAME }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
           node-version: '12.x'
           registry-url: ${{secrets.REGISTRY_URL}}
           always-auth: true
+
       - name: Cache Node.js modules
         uses: actions/cache@v2
         with:
@@ -24,11 +37,14 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+
       - name: Install dependencies
         run: |
           yarn install --frozen-lockfile
+
       - name: Publish to registry
         run: |
           yarn publish:all 
         env:
+          GH_TOKEN: {{secrets.GH_TOKEN}}
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

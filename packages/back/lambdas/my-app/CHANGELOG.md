@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.9 (2020-11-19)
+
+
+### Bug Fixes
+
+* test ([c229aa9](https://github.com/thibault-jacquet/yarn-monorepo/commit/c229aa9aa28828f77df94ad62d3b2cd44514ecf3))
+
+
+
+
+
 ## [1.1.8](https://github.com/thibault-jacquet/yarn-monorepo/compare/my-app@1.1.7...my-app@1.1.8) (2020-11-19)
 
 **Note:** Version bump only for package my-app

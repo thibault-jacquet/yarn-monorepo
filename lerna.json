@@ -7,7 +7,7 @@
     "useWorkspaces": true,
     "command": {
       "publish": {
-        "registry": "toto",
+        "registry": "http://localhost:4444",
         "conventionalCommits": true,
         "message": "chore: publish",
         "allowBranch": "main"

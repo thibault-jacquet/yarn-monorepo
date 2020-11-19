@@ -8,7 +8,7 @@
     "command": {
       "publish": {
         "registry": "http://localhost:4873",
-        "conventionalCommits": false,
+        "conventionalCommits": true,
         "message": "chore: publish",
         "allowBranch": "main"
       }

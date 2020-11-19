@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "sideEffects": [],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -13,8 +13,8 @@
     "build": "webpack"
   },
   "dependencies": {
-    "@company/lib-dos": "^2.0.0",
-    "@company/lib-uno": "^1.0.0"
+    "@company/lib-dos": "^2.0.1",
+    "@company/lib-uno": "^1.0.1"
   },
   "peerDependencies": {
     "typescript": ">=4",

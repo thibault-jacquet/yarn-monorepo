@@ -8,7 +8,8 @@
     "packages/**"
   ],
   "scripts": {
-    "build:all": "lerna run build"
+    "build:all": "lerna run build",
+    "publish:all": "lerna publish"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",

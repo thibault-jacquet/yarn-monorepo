@@ -1,38 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@thibault-jacquet 
-verdaccio
-/
-verdaccio
-160
-10.7k936
-Code
-Issues
-93
-Pull requests
-16
-Actions
-Projects
-2
-Wiki
-Security
-1
-Insights
-verdaccio/docker-examples/docker-local-storage-volume/conf/config.yaml
-@juanpicado
-juanpicado docs: relocate docker-examples to 5.x (#1990)
-…
-Latest commit 69b8641 18 days ago
- History
- 1 contributor
-71 lines (61 sloc)  1.75 KB
- 
 #
 # This is the config file used for the docker images.
 # It allows all users to do anything, so don't use it on production systems.

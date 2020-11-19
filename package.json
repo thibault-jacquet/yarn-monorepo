@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build:all": "lerna run build",
-    "publish:all": "lerna publish"
+    "publish:all": "lerna publish --conventional-commits"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",

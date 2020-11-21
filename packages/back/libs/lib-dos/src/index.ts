@@ -1,1 +1,1 @@
-export const lowerCase = (str: string) => str.toLowerCase()
+export const lowerCase = (str: string) => str.toLowerCase() + '4'

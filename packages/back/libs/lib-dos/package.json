@@ -9,11 +9,10 @@
   "scripts": {
     "prepublish": "yarn build",
     "prebuild": "rm -rf dist",
-    "build": "tsc -p tsconfig.build.json"
+    "build": "yarn run prebuild && tsc -p tsconfig.build.json"
   },
-  "peerDependencies": {
-    "typescript": ">=4",
-    "webpack": ">=5"
+  "devDependencies": {
+    "typescript": "^4.1.2"
   },
   "gitHead": "706465224ff549579695f1ba0205f0d7b55c0fab"
 }

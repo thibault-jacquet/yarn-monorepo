@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.15](https://github.com/thibault-jacquet/yarn-monorepo/compare/my-app@1.1.14...my-app@1.1.15) (2020-11-22)
+
+
+### Bug Fixes
+
+* **my-app:** update package.json ([6f5e82c](https://github.com/thibault-jacquet/yarn-monorepo/commit/6f5e82ca3f9e4c38faaf029b3070cf6016d077d6))
+
+
+
+
+
 ## [1.1.14](https://github.com/thibault-jacquet/yarn-monorepo/compare/my-app@1.1.13...my-app@1.1.14) (2020-11-22)
 
 **Note:** Version bump only for package my-app

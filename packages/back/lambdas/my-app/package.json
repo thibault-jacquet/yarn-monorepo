@@ -4,6 +4,9 @@
   "license": "MIT",
   "sideEffects": [],
   "main": "index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "yarn run prebuild && webpack",

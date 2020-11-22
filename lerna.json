@@ -7,7 +7,7 @@
     "useWorkspaces": true,
     "command": {
       "publish": {
-        "registry": "localhost:4873",
+        "registry": "http://localhost:4873",
         "conventionalCommits": true,
         "message": "chore: publish",
         "allowBranch": "yarn-v2"

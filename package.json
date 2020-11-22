@@ -10,7 +10,7 @@
   "scripts": {
     "build": "yarn workspaces foreach -pt run build",
     "build:all": "lerna run build",
-    "publish:all": "lerna publish --conventional-commits -y"
+    "publish:all": "yarn build && lerna publish --conventional-commits -y"
   },
   "devDependencies": {
     "lerna": "^3.22.1",

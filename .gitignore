@@ -4,3 +4,4 @@ yarn-*
 .yarn
 .vscode
 lerna-*
+.pnp

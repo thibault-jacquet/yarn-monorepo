@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/thibault-jacquet/yarn-monorepo/compare/@company/lib-uno@1.2.1...@company/lib-uno@1.3.0) (2020-11-22)
+
+
+### Bug Fixes
+
+* **lib-uno:** tsconfig ([1116a3d](https://github.com/thibault-jacquet/yarn-monorepo/commit/1116a3dc53203c67b5f8fa37944b641bbd0bf23a))
+
+
+### Features
+
+* upgrade ([906c6dd](https://github.com/thibault-jacquet/yarn-monorepo/commit/906c6dd36e6426e8125d3b17d2541c96c7a8f391))
+
+
+
+
+
 ## [1.2.1](https://github.com/thibault-jacquet/yarn-monorepo/compare/@company/lib-uno@1.2.0...@company/lib-uno@1.2.1) (2020-11-22)
 
 **Note:** Version bump only for package @company/lib-uno

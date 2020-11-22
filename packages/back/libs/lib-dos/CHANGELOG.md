@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/thibault-jacquet/yarn-monorepo/compare/@company/lib-dos@2.0.9...@company/lib-dos@2.1.0) (2020-11-22)
+
+
+### Bug Fixes
+
+* **lib-dos:** tsconfig ([7663581](https://github.com/thibault-jacquet/yarn-monorepo/commit/76635818a6c1f08dba26ee4bd36095b91c731051))
+
+
+### Features
+
+* upgrade ([906c6dd](https://github.com/thibault-jacquet/yarn-monorepo/commit/906c6dd36e6426e8125d3b17d2541c96c7a8f391))
+
+
+
+
+
 ## [2.0.9](https://github.com/thibault-jacquet/yarn-monorepo/compare/@company/lib-dos@2.0.8...@company/lib-dos@2.0.9) (2020-11-22)
 
 **Note:** Version bump only for package @company/lib-dos

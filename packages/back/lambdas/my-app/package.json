@@ -6,12 +6,12 @@
   "main": "index.js",
   "scripts": {
     "prebuild": "rm -rf dist",
-    "build": "yarn run prebuild  && webpack",
+    "build": "yarn run prebuild && webpack",
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@company/lib-dos": "workspace:@company/lib-dos",
-    "@company/lib-uno": "workspace:@company/lib-dos"
+    "@company/lib-dos": "^2.0.6",
+    "@company/lib-uno": "^1.1.7"
   },
   "devDependencies": {
     "lerna": "^3.22.1",

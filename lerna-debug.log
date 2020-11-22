@@ -1,8 +1,12 @@
 0 silly argv {
-0 silly argv   _: [ 'run' ],
+0 silly argv   _: [ 'publish' ],
+0 silly argv   'conventional-commits': true,
+0 silly argv   conventionalCommits: true,
+0 silly argv   y: true,
+0 silly argv   yes: true,
+0 silly argv   composed: 'publish',
 0 silly argv   lernaVersion: '3.22.1',
-0 silly argv   '$0': '.yarn/cache/lerna-npm-3.22.1-7ce162be33-ee9d147889.zip/node_modules/lerna/cli.js',
-0 silly argv   script: 'build'
+0 silly argv   '$0': '.yarn/cache/lerna-npm-3.22.1-7ce162be33-ee9d147889.zip/node_modules/lerna/cli.js'
 0 silly argv }
 1 notice cli v3.22.1
 2 verbose rootPath /home/thibs/Project/startup/yarn-monorepo

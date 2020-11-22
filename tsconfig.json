@@ -2,8 +2,8 @@
     "extends": "./tsconfig.build.json",
     "compilerOptions": {
         "baseUrl": ".",
-        "paths": {
-            "@company/*": ["packages/back/libs/*/src"]
-        }
+        // "paths": {
+        //     "@company/*": ["packages/back/libs/*/src"]
+        // }
     }
 }
